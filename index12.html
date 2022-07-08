@@ -1,0 +1,46 @@
+<!-- Forms -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form style="background-color: lightblue;">
+        <label for="fname">First name:</label><br>
+        <input type="text" name="fname" id="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" name="lname" id="lname">
+    </form>
+    <br>
+    <form>
+        <input type="radio" name="fav_language" id="html">
+        <label for="html">HTML</label><br>
+        <input type="radio" name="fav_language" id="css">
+        <label for="css">CSS</label><br>
+        <input type="radio" name="fav_language" id="javascript">
+        <label for="javascript">JavaScript</label><br>
+    </form>
+    <br>
+    <form>
+        <input type="checkbox" name="vehicle1" id="vehicle1">
+        <label for="vehicle1">I have a bike</label><br>
+        <input type="checkbox" name="vehicle2" id="vehicle2">
+        <label for="vehicle2">I have a car</label><br>
+        <input type="checkbox" name="vehicle3" id="vehicle3">
+        <label for="vehicle3">I have a boat</label><br>
+        <input type="submit" id="mysubmit" value="Submit"><br>
+        <input type="search" name="search" id="mysearch">
+        <label for="mysearch">Search</label>
+    </form>
+    <form action="data.php">
+        <input type="date" name="date" id="mydate"><br><br>
+        <input type="datetime" name="datetime" id="mydatetime"><br>
+        <input type="file" name="file" id="uploadfile"><br>
+        <input type="url" name="url" id="allurl">
+    </form>
+</body>
+</html>
